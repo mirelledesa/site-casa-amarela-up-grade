@@ -6,80 +6,33 @@ margin-top: 0;
 body{
     background-image: url(./assets.com/fundo4.jpg);
 }
-header img{
-    width: 100px;
-    height: 90px;
-    border-radius: 100px;
-    margin: 0 90px;
-}
+
 header{
-    display: flex;
-    margin: 3rem 23%
-    
-    
-}
-    
-.itens-header a{
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    color: #444343;
-    font-family:Fira sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-}
-
- .itens-header{
-    display: flex;
-    padding: 14px 0;
-    font-size: 24px;
-    list-style: none;
-    margin: 0 30px;
- }
- /*Main*/
- main{
-    position: relative;
- }
- .ttl{
-    text-align:center;
-    font-family: italiana;
-    color: #0C0B0B;
-   font-size: 130px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-   margin-top: 150px;
-   margin-bottom: 0px;
+   background-color: aliceblue;
+   padding: 10px 15px;
    
- }
- .sb-ttl{
-    top: 135px;
-    left: 32%;
-    color: #3C3B3B;
-    font-family: "PT Sans Narrow";
-    font-size: 43px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
+}
+nav{
+   text-align: center;
+}
+.itens-header{
+   list-style: none;
+   display: flex;
+   justify-content: center;
 
- }
- .loc{
-    text-align: center;
-    font-family:  Oxanium;
-    color: rgba(0, 0, 0, 0.66);
-    font-family: Oxanium;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 50px; 
-    margin-top: 60px;
- }
- svg{
-    position: absolute;
-    top: 207px;
-    left: 39%;
- }
+}
+.itens-header li{
+   margin: 0 15px;
+}
+.itens-header a{
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 20px;
+   font-family: Helvetica;
+   transition: color 0.3s ease;
+   padding: 10px;
+
+}
+.itens-header a:hover{
+   color: rgb(127, 133, 10);
+}
