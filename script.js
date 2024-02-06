@@ -1,15 +1,25 @@
-const imgs = document.getElementById("img");
-const img = document.querySelectorAll("#img img");
+const changeSlideButtons = document.querySelectorAll("[data-change-slide-button]")
 
-let idx = 0;
+changeSlideButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const slides = document.querySelector(".slides")
+        const activeSlide = slides.querySelector("[data-active]")
+        let indexActiveSlide = Array.from(slides.children).indexOf(activeSlide)
+   
+        indexActiveSlide = button.dataset.changeSlideButton === "next"
+        ? indexActiveSlide + 1 
+        : indexActiveSlide - 1 
+    
 
-function carrosel(){
-    idx++;
-
-    if(idx > img.length - 1){
-        idx = 0;
+    if (indexActiveSlide >= slides.children.length) {
+        indexActiveSlide = 0 
+    } 
+    
+    if (indexActiveSlide < 0){
+        indexActiveSlide = slides.children.length - 1 
     }
-
-    imgs.style.transform = `translateX(${-idx * 1000}px)`;
-}
-setInterval(carrosel, 1800);
+    activeSlide.removeAttribute("data-active")
+    slides.children[indexActiveSlide].dataset.active = true
+    
+})
+})
