@@ -17,27 +17,27 @@ header{
 nav{
    text-align: center;
 }
-.itens-header{
+.menu{
    list-style: none;
    display: flex;
    justify-content: center;
    
 }
-.itens-header li{
+.menu li{
    margin: 10px 10px;
    
 }
-.itens-header a{
+.menu a{
    text-decoration: none;
    font-weight: bold;
    font-size: 20px;
    font-family: Helvetica;
    transition: color 0.3s ease;
-   padding: 25px;
-   color:rgb(47, 47, 47);
+   padding: 20px;
+   color:rgb(8, 8, 8);
 
 }
-.itens-header a:hover{
+.menu a:hover{
    color: rgb(110, 110, 110);
 }
 /* carrosel*/
@@ -142,13 +142,127 @@ h4{
    font-size: 19px;
    text-shadow: 1px 1px 2px black;
 }
+/* espaço 2 */
 
+.p2{
+   background-color: whitesmoke;
+   padding-top: 15px;
+   padding-bottom: 40px;
+   
+}
 .espaço{
 font-size: 30px;
 font-family: "russo one";
 font-weight:bold;
-margin-top: 200px;
+margin-top: 80px;
 text-align: center;
-color: rgb(27, 25, 25);
+color: rgb(54, 53, 53);
 
+}
+.fgt{
+   width: 300px;
+   position: absolute;
+   left:40%;
+   top: 930px;
+}
+.frase1{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 300px;
+   margin-bottom: 0;
+   font-weight: 300;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.frase2{
+text-align: center;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 40px;
+}
+.agendar {
+   background-color: rgb(235, 194, 11);
+   border-radius: 30px;
+   padding: 10px 15px;
+   margin-left: 41%;
+   font-weight: 300;
+   font-size: 20px;
+   font-family: "viga";
+   cursor: pointer;
+   text-decoration: none;
+   color:black;
+   
+}
+.agendar:hover{
+   background-color: rgb(244, 224, 113);
+   color:black;
+   transition: 0.3s;
+}
+/*pacotes*/
+.container-pct{
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   margin: 50px auto 0;
+}
+
+.pct{
+   flex: 1;
+   max-width: 275px;
+   margin: 0 20px 40px;
+}
+
+.pct li{
+   list-style: none;
+   height: 50px;
+   line-height: 50px;
+   background-color: #f0f1d3;
+   color:#333;
+   text-align: center;
+   border: 2px solid white;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.pct .valor{
+   background-color: rgb(135, 186, 59);
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: 25px;
+   color:white;
+   position: relative;
+   line-height: 120px;
+   margin: 0 auto -50px;
+
+}
+
+.pct .nome{
+   background-color: #5b5959;
+   color: aliceblue;
+   text-transform: uppercase;
+   text-align: center;
+   height: 100px;
+   font-weight: bold;
+   font-size: 20px;
+   padding-top: 45px;
+}
+
+.pct .hrr{
+   border: 6px solid rgb(111, 164, 88);
+}
+
+.pct .ctt{
+   background-color: #eeefbf; 
+   color: rgb(9, 9, 9); 
+   text-transform: uppercase;
+   text-align: center;
+   height: 55px;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 40px; 
 }
