@@ -182,22 +182,23 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 margin-bottom: 40px;
 }
 .agendar {
-   background-color: rgb(235, 194, 11);
+   background-color: rgb(77, 72, 53);
    border-radius: 30px;
    padding: 10px 15px;
-   margin-left: 41%;
-   font-weight: 300;
-   font-size: 20px;
-   font-family: "viga";
+   margin-left: 42%;
+   font-size: 25px;
+   font-family: "Staatliches";
    cursor: pointer;
    text-decoration: none;
-   color:black;
+   color:white;
+   
+   
    
 }
 .agendar:hover{
-   background-color: rgb(244, 224, 113);
-   color:black;
-   transition: 0.3s;
+   background-color: rgb(135, 186, 59);
+   color: white;
+   transition: 0.5s;
 }
 /*pacotes*/
 .container-pct{
@@ -265,4 +266,70 @@ margin-bottom: 40px;
    font-weight: bold;
    font-size: 20px;
    margin-bottom: 40px; 
+}
+/* sessão 3 */
+
+.p3{
+   position: relative;
+
+}
+.procurar{
+   margin-top: 60px;
+   text-align: center;
+   font-size: 30px;
+   font-family: "red Rose";
+   margin-bottom: 3px;
+   font-weight: 400;
+   
+}
+.mensagem{
+   text-align: center;
+   font-size: 21px;
+   font-family: "red Rose";
+}
+.orcamento{
+   left: 41%;
+   text-decoration: none;
+   font-size: 35px;
+   position: absolute;
+   background-color: rgb(70, 181, 107);
+   padding: 7px 20px;
+   border-radius: 40px;  
+   color: white;
+   font-family: "Staatliches";
+   margin-top: 8px;
+}
+.orcamento:hover{
+   background-color:rgb(54, 181, 136) ;
+   transition: 0.2s;
+}
+#click{
+   top: 142px;
+   width: 50px;
+   position: absolute;
+   left: 54%;
+}
+#celular{
+   width: 400px;
+   position: absolute;
+   right: 15%;
+   border-radius: 50%;
+}
+/*sessão 4*/
+.p4{
+   margin-top: 200px;
+   background-color: whitesmoke;
+
+}
+.mapa{
+   margin-left: 33%;
+   width: 70px;
+   margin-top: 250px;
+}
+.mapafoto{
+   height: 400px;
+   display: block;
+   margin-left: 15%;
+   width: 40%;
+   border-radius: 50px;
 }
