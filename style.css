@@ -6,7 +6,7 @@ font-family: "inter";
 }
 
 body{
-    background-color: rgb(255, 255, 205);
+    background-color: rgb(249, 249, 221);
     
 }
 
@@ -229,7 +229,63 @@ h5{
  
    
 }
-.ILopçoesbold1{
-   margin-bottom: 6.5rem;
+.bloco6{
+   margin-top: 5rem;
+   background-image: url(./assets.com/Rectangle.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 7rem;
+   font-family: "inter";
+   height: 26rem;
    
+}
+h6{
+   text-align: center;
+   font-size: 3.4rem;
+   font-weight: 500;
+   margin-bottom: 1.3rem;
+}
+.mensagem{
+   margin-top: 0;
+   font-family: "inter";
+   margin-bottom: 3.5rem;
+}
+.link3{
+   text-decoration: none;
+   background-color: black;
+   color: aliceblue;
+   padding: 1.3rem 2rem;
+   margin-left: 43%;
+   font-size: 1.1rem;
+   font-weight: 500;
+   
+}
+/*sessao 7*/
+.avaliaçoes{
+   margin-top: 6rem;
+   font-size: 2.2rem;
+   font-weight: 500;
+   margin-left: 4.5rem;
+   margin-bottom: 2rem;
+}
+.bloco7{
+   display: flex;
+   margin-left: 5rem;
+}
+.avaliaçoesdiv{
+   margin: 0 auto;
+   justify-content: space-around ;
+   width: 400px;
+   
+}
+.rlt{
+   font-size: 1rem;
+   margin-top: 2rem;
+   text-align: left;
+   
+}
+.nome{
+   font-size: 1rem;
+   margin-top: 2rem;
+   text-align: left;
 }
