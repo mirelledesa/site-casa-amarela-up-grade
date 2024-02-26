@@ -2,43 +2,81 @@
 padding: 0;
 margin-top: 0;
 box-sizing: border-box;
+font-family: "inter";
 }
 
 body{
-    background-image: url(./assets.com/fundo4.jpg);
+    background-color: rgb(249, 249, 246);
     
 }
 
 header{
-   background-color: aliceblue;
-   margin-top: 15px;
-  
+   margin-top: 20px;
+ 
+   
 }
-nav{
-   text-align: center;
-}
-.menu{
-   list-style: none;
+.stc{
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
+   font-family:"inter";
+   font-size: 1.3rem;
+}
+   
+/*sessão*/
+.bloco1{
+   background-image: url(./assets.com/ft1.jpeg);
+   height: 650px;
+   width: 100%vh;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   opacity: 0.9;
    
 }
-.menu li{
-   margin: 10px 10px;
-   
+h1{
+   color: rgb(9, 8, 8);
+   position: absolute;
+   top: 21rem;
+   left: 20rem;
+   font-family:"inter";
+   font-size: 90px;
+   font-weight:400;
 }
-.menu a{
+.p1{
+ position: absolute;
+ left:20rem;
+ top: 25.5rem;
+ font-size: 20px;
+ font-family: "inter";
+}
+/*sessão 2*/
+.chamada{
+   font-family: "inter";
+   margin-top: 7rem;
+   font-size: 45px;
+   text-align: center;
+   font-weight: 500;
+   color: rgb(17, 17, 17);
+   margin-bottom: 4rem;
+} 
+.link1{
+   background-color: rgb(41, 110, 215);
+   color: rgb(252, 251, 251);
+   font-family: "inter";
+   margin: 0 auto;
    text-decoration: none;
-   font-weight: bold;
-   font-size: 20px;
-   font-family: Helvetica;
-   transition: color 0.3s ease;
-   padding: 20px;
-   color:rgb(8, 8, 8);
-
+   padding: 20px 20px;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   margin-left: 43%;
+   margin-top: 40px;
 }
-.menu a:hover{
-   color: rgb(110, 110, 110);
+p{
+   text-align: center;
+   margin-top: 8rem;
+   font-size: 1.3rem;
+   font-weight: 500;
+   
 }
 /* carrosel*/
 li{
@@ -49,16 +87,17 @@ button {
 }
 .slideshow-container{
    position: relative;
-   height: 100%vh;
+   height: 60%vh;
    overflow: hidden;
 }
 .slides{
-   height: 100%;
+   height: 60%;
 }
 .slide{
-   width: 100%; /* largura das fotos carrosel */
-   height: 750px; /* altura das fotos carrosel*/
+   width: 60%; /* largura das fotos carrosel */
+   height: 500px; /* altura das fotos carrosel*/
    display: none;
+   margin: 0 auto;
 }
 .slide[data-active]{
    display: block;
@@ -82,22 +121,22 @@ button {
    font-size: 50px;
    font-weight: 900px;
    border-radius: 10px;
-   color: white;
+   color: rgb(16, 16, 16);
    background: transparent;
    
 }
 
 .previous-button{
-   left: 0;
+   left: 20%;
  
 }
 .next-button{
-   right: 0;
+   right: 20%;
    
 }
 .previous-button:hover,
 .next-button:hover{
-   background-color: rgba(70, 69, 69, 0.4);
+   background-color: rgba(255, 251, 251, 0.4);
 }
 .fade{
    animation-name: fade;
@@ -116,220 +155,4 @@ button {
 }
 /* final do carrosel*/
 
-h1{
-   position: absolute;
-   top: 40%;
-   left: 15% ;
-   font-size: 80px;
-   font-family:  "Libre Franklin", sans-serif;
-   color: white;
-   text-shadow: 1px 1px 2px black;
-}
-h3{
-   position: absolute;
-   top: 70%;
-   left: 15%;
-   font-size: 25px;
-   color:white;
-   text-shadow: 1px 1px 2px rgb(37, 37, 26);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h4{
-   color: white;
-   position: absolute;
-   top: 95%;
-   left: 45%;
-   font-size: 19px;
-   text-shadow: 1px 1px 2px black;
-}
-/* espaço 2 */
-
-.p2{
-   background-color: whitesmoke;
-   padding-top: 15px;
-   padding-bottom: 40px;
-   
-}
-.espaço{
-font-size: 30px;
-font-family: "russo one";
-font-weight:bold;
-margin-top: 80px;
-text-align: center;
-color: rgb(54, 53, 53);
-
-}
-.fgt{
-   width: 300px;
-   position: absolute;
-   left:40%;
-   top: 930px;
-}
-.frase1{
-   text-align: center;
-   font-size: 30px;
-   margin-top: 300px;
-   margin-bottom: 0;
-   font-weight: 300;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-.frase2{
-text-align: center;
-font-size: 20px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin-bottom: 40px;
-}
-.agendar {
-   background-color: rgb(77, 72, 53);
-   border-radius: 30px;
-   padding: 10px 15px;
-   margin-left: 42%;
-   font-size: 25px;
-   font-family: "Staatliches";
-   cursor: pointer;
-   text-decoration: none;
-   color:white;
-   
-   
-   
-}
-.agendar:hover{
-   background-color: rgb(135, 186, 59);
-   color: white;
-   transition: 0.5s;
-}
-/*pacotes*/
-.container-pct{
-   display: flex;
-   justify-content: space-between;
-   width: 90%;
-   margin: 50px auto 0;
-}
-
-.pct{
-   flex: 1;
-   max-width: 275px;
-   margin: 0 20px 40px;
-}
-
-.pct li{
-   list-style: none;
-   height: 50px;
-   line-height: 50px;
-   background-color: #f0f1d3;
-   color:#333;
-   text-align: center;
-   border: 2px solid white;
-   font-size: 18px;
-   font-family: Arial, Helvetica, sans-serif;
-   
-}
-
-
-.pct .valor{
-   background-color: rgb(135, 186, 59);
-   width: 120px;
-   height: 120px;
-   border-radius: 50%;
-   text-align: center;
-   font-size: 25px;
-   color:white;
-   position: relative;
-   line-height: 120px;
-   margin: 0 auto -50px;
-
-}
-
-.pct .nome{
-   background-color: #5b5959;
-   color: aliceblue;
-   text-transform: uppercase;
-   text-align: center;
-   height: 100px;
-   font-weight: bold;
-   font-size: 20px;
-   padding-top: 45px;
-}
-
-.pct .hrr{
-   border: 6px solid rgb(111, 164, 88);
-}
-
-.pct .ctt{
-   background-color: #eeefbf; 
-   color: rgb(9, 9, 9); 
-   text-transform: uppercase;
-   text-align: center;
-   height: 55px;
-   font-weight: bold;
-   font-size: 20px;
-   margin-bottom: 40px; 
-}
-/* sessão 3 */
-
-.p3{
-   position: relative;
-
-}
-.procurar{
-   margin-top: 60px;
-   text-align: center;
-   font-size: 30px;
-   font-family: "red Rose";
-   margin-bottom: 3px;
-   font-weight: 400;
-   
-}
-.mensagem{
-   text-align: center;
-   font-size: 21px;
-   font-family: "red Rose";
-}
-.orcamento{
-   left: 41%;
-   text-decoration: none;
-   font-size: 35px;
-   position: absolute;
-   background-color: rgb(70, 181, 107);
-   padding: 7px 20px;
-   border-radius: 40px;  
-   color: white;
-   font-family: "Staatliches";
-   margin-top: 8px;
-}
-.orcamento:hover{
-   background-color:rgb(54, 181, 136) ;
-   transition: 0.2s;
-}
-#click{
-   top: 142px;
-   width: 50px;
-   position: absolute;
-   left: 54%;
-}
-#celular{
-   width: 400px;
-   position: absolute;
-   right: 15%;
-   border-radius: 50%;
-}
-/*sessão 4*/
-.p4{
-   margin-top: 200px;
-   background-color: whitesmoke;
-
-}
-.mapa{
-   margin-left: 33%;
-   width: 70px;
-   margin-top: 250px;
-}
-.mapafoto{
-   height: 400px;
-   display: block;
-   margin-left: 15%;
-   width: 40%;
-   border-radius: 50px;
-}
+ 
