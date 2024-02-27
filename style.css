@@ -24,18 +24,19 @@ header{
    
 /*sessão*/
 .bloco1{
-   background-image: url(./assets.com/fundo.png);
-   height: 500px;
+   background-image: url(./assets.com/tt1.jpeg);
+   height: 550px;
    width: 100%vh;
    background-size: cover;
    background-position: center;
    position: relative;
-
+   
+   
 }
 h1{
    color: rgb(9, 8, 8);
    position: absolute;
-   top: 10rem;
+   top: 18rem;
    left: 20rem;
    font-family:"inter";
    font-size: 90px;
@@ -44,9 +45,10 @@ h1{
 .p1{
  position: absolute;
  left:20rem;
- top: 15.5rem;
+ top: 23.5rem;
  font-size: 20px;
  font-family: "inter";
+ 
 }
 /*sessão 2*/
 .chamada{
