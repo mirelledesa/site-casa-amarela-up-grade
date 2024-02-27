@@ -24,28 +24,34 @@ header{
    
 /*sessão*/
 .bloco1{
-   background-image: url(./assets.com/tt1.jpeg);
-   height: 550px;
-   width: 100%vh;
+   background-image: url(./assets.com/fundo.png);
+   height: 400px;
+   width: 100%;
    background-size: cover;
    background-position: center;
    position: relative;
-   
-   
+   overflow: hidden;
+}
+
+.bloco1::before {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+
 }
 h1{
    color: rgb(9, 8, 8);
    position: absolute;
-   top: 18rem;
-   left: 20rem;
-   font-family:"inter";
-   font-size: 90px;
+   top: 13rem;
+   left: 27rem;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 85px;
    font-weight:400;
 }
 .p1{
  position: absolute;
- left:20rem;
- top: 23.5rem;
+ left:27rem;
+ top: 12rem;
  font-size: 20px;
  font-family: "inter";
  
@@ -118,12 +124,12 @@ button {
    transform: translateY(-50%);
    border: 0;
    width: 56px;
-   height: 56px;
+   height: 80px;
    font-size: 50px;
    font-weight: 900px;
-   border-radius: 10px;
-   color: rgb(16, 16, 16);
-   background: transparent;
+   border-radius: 50%;
+   color: rgb(45, 45, 45);
+   background: rgba(185, 185, 185, 0.5);
    
 }
 
@@ -346,4 +352,5 @@ i{
    margin-top: 2rem;
    margin-bottom: 0;
 }
+/*resposividade*/
 
