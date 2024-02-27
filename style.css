@@ -24,19 +24,18 @@ header{
    
 /*sessão*/
 .bloco1{
-   background-image: url(./assets.com/ft1.jpeg);
-   height: 650px;
+   background-image: url(./assets.com/fundo.png);
+   height: 500px;
    width: 100%vh;
    background-size: cover;
    background-position: center;
    position: relative;
-   opacity: 0.9;
-   
+
 }
 h1{
    color: rgb(9, 8, 8);
    position: absolute;
-   top: 21rem;
+   top: 10rem;
    left: 20rem;
    font-family:"inter";
    font-size: 90px;
@@ -45,7 +44,7 @@ h1{
 .p1{
  position: absolute;
  left:20rem;
- top: 25.5rem;
+ top: 15.5rem;
  font-size: 20px;
  font-family: "inter";
 }
@@ -288,4 +287,61 @@ h6{
    font-size: 1rem;
    margin-top: 2rem;
    text-align: left;
+   margin-bottom: 6rem;
 }
+/* bloco 8*/
+h3{
+   margin-top: 2rem;
+   text-align: center;
+   font-size: 1.3rem;
+}
+.localizaçao{
+   margin-top: 0;
+   font-size: 1.1rem;
+   line-height: 1.7rem;
+   margin-bottom: 5rem;
+}
+iframe{
+   margin-left: 32%;
+   margin-top: 1rem;
+}
+/*rodape*/
+footer{
+   background-color: rgb(235, 235, 232);  
+   height: 17rem;
+}
+.siga{
+   margin-top: 0;
+   
+}
+.nvds{
+   font-size: 1.8rem;
+   font-weight: 500;
+   text-align:center;
+   font-family: "inter";
+   margin-bottom: 0.5rem;
+   padding-top: 4rem;
+   font-weight: 400;
+   
+}
+.bloco9{
+ display: flex;
+}
+.sociais{
+   justify-content: space-around;
+   margin: 0 30px;
+   margin-bottom: 3rem;
+   
+   
+}
+.icones{
+   margin-left: 340px;
+
+}
+i{
+   color: black;
+   font-size: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 0;
+}
+
